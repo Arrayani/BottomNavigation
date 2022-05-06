@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/anim/slide_in.xml -->
+    <translate
+        android:duration="@android:integer/config_shortAnimTime"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:fromXDelta="100%"
+        android:toXDelta="0%" />
+
+    <!-- res/anim/slide_out.xml -->
+    <translate
+        android:duration="@android:integer/config_shortAnimTime"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:fromXDelta="0%"
+        android:toXDelta="100%" />
+
+
+    <!-- res/anim/fade_out.xml -->
+    <?xml version="1.0" encoding="utf-8"?>
+    <alpha
+        android:duration="@android:integer/config_shortAnimTime"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:fromAlpha="1"
+        android:toAlpha="0" />
+    <!-- res/anim/fade_in.xml -->
+    <alpha
+        android:duration="@android:integer/config_shortAnimTime"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:fromAlpha="0"
+        android:toAlpha="1" />
+
+</set>
